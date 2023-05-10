@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PDF", "PDF", "{70FEFF45-82CE-492F-A76F-45D4A4745733}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IronPdfPoc", "POC\IronPdfPoc\IronPdfPoc.csproj", "{15C227A8-F055-4ADC-AB53-3CF234B4352C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = " Samples", " Samples", "{A7006AA8-B508-4F38-94BD-9C7BB2E1CB9A}"
+	ProjectSection(SolutionItems) = preProject
+		Samples\example.pdf = Samples\example.pdf
+		Samples\example.tif = Samples\example.tif
+		Samples\example.png = Samples\example.png
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITextPoc", "POC\ITextPoc\ITextPoc.csproj", "{7E573DCC-99C7-4130-9DE3-F3F834F8A955}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GdPicturePoc", "POC\GdPicturePoc\GdPicturePoc.csproj", "{FC7F9681-69FA-452A-B835-FB3E4F557AD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageMagickPoc", "POC\ImageMagickPoc\ImageMagickPoc.csproj", "{A1767B89-4A79-4EC8-893B-37A9B0BD0C34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkiaSharpPoc", "POC\SkiaSharpPoc\SkiaSharpPoc.csproj", "{953236D0-8BAD-4E48-AC99-1709FA550A1E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{0C4D4FCD-8795-49A5-B866-E9E247F0CF87}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{113C964E-667D-4CF7-89BF-E84D5AEBA5BF}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15C227A8-F055-4ADC-AB53-3CF234B4352C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15C227A8-F055-4ADC-AB53-3CF234B4352C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15C227A8-F055-4ADC-AB53-3CF234B4352C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15C227A8-F055-4ADC-AB53-3CF234B4352C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E573DCC-99C7-4130-9DE3-F3F834F8A955}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E573DCC-99C7-4130-9DE3-F3F834F8A955}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E573DCC-99C7-4130-9DE3-F3F834F8A955}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E573DCC-99C7-4130-9DE3-F3F834F8A955}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC7F9681-69FA-452A-B835-FB3E4F557AD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC7F9681-69FA-452A-B835-FB3E4F557AD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC7F9681-69FA-452A-B835-FB3E4F557AD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC7F9681-69FA-452A-B835-FB3E4F557AD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1767B89-4A79-4EC8-893B-37A9B0BD0C34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1767B89-4A79-4EC8-893B-37A9B0BD0C34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1767B89-4A79-4EC8-893B-37A9B0BD0C34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1767B89-4A79-4EC8-893B-37A9B0BD0C34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{953236D0-8BAD-4E48-AC99-1709FA550A1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{953236D0-8BAD-4E48-AC99-1709FA550A1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{953236D0-8BAD-4E48-AC99-1709FA550A1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{953236D0-8BAD-4E48-AC99-1709FA550A1E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{15C227A8-F055-4ADC-AB53-3CF234B4352C} = {70FEFF45-82CE-492F-A76F-45D4A4745733}
+		{7E573DCC-99C7-4130-9DE3-F3F834F8A955} = {70FEFF45-82CE-492F-A76F-45D4A4745733}
+		{FC7F9681-69FA-452A-B835-FB3E4F557AD9} = {70FEFF45-82CE-492F-A76F-45D4A4745733}
+		{953236D0-8BAD-4E48-AC99-1709FA550A1E} = {0C4D4FCD-8795-49A5-B866-E9E247F0CF87}
+		{A1767B89-4A79-4EC8-893B-37A9B0BD0C34} = {0C4D4FCD-8795-49A5-B866-E9E247F0CF87}
+	EndGlobalSection
+EndGlobal
